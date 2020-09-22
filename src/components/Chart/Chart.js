@@ -12,7 +12,7 @@ const Chart = () => {
     }
     
     fetchData();
-  });
+  }, [dailyData]);
 
   // We are gonna have two different charts.One a bar chart for each specific country and another a line chart for the global daily cases.
   
