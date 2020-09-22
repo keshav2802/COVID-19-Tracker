@@ -7,16 +7,21 @@ import './App.css';
 import {fetchData} from './api/index';
 
 class App extends Component {
+  state = {
+    data: {}
+  }
 
   async componentDidMount() {
     const data = await fetchData();
-    console.log(data);
+    this.setState({data: data});
   }
-  
+
   render() {
+    const {data} = this.state;
+
     return (
       <div className="App">
-        <Cards />
+        <Cards data={data} />
         <CountryPicker />
         <Chart />
       </div>
