@@ -1,6 +1,6 @@
 # COVID-19 Tracker
 
-An app that shows COVID-19 related information.
+An app made with React.js that shows COVID-19 related information.
 
 # Description
 
