@@ -9,7 +9,7 @@ The current situation in the world is not great. But what can we, as developers 
 I have used the mathdroid API. It is a free API which provides latest updated data about covid. The API returns important data such as total cases, total recovered, total fatalities, country wise data, name of all countries, daily data and last updated time.
 
 # Libraries used:
-
+* React.js
 * axios: It is used to make a get request to an API.
 * react-chartjs-2: It is used for making charts.
 * chart.js: For react-chartjs-2 to work, we also need to install chart.js. react-chartjs-2 is just a wrapper for chart.js.
